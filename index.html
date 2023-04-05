@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- View Port For Responsive Web Page -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Related CSS Styling File -->
+    <link rel="stylesheet" href="index.css">
+    <!-- Related Font-Awesome CDN File -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Title Of The Web Page -->
+    <title>Portfolio</title>
+</head>
+<body>
+    <!-- Horizontal Naviagtion Bar -->
+    <header>
+        <a  class="logo" href="#">Portfolio</a>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#service">Skills</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <span><a href="#" class="menulogo"><i class="fa-solid fa-bars"></i></a></span>
+        </ul>
+    </header>
+    <!-- Vertical Naviagation Bar -->
+    <div class="dropdown_menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Skills</a></li>
+        <li><a href="#">Work</a></li>
+        <li><a href="#">Contact</a></li>
+    </div>
+    <!-- Header Section -->
+    <section class="home">
+        <div class="home-content">
+            <h3>Hey, This is</h3>
+            <h1>Shivani Gollapalli</h1>
+            <h3>And I'm a <span class="multi">Frontend Developer</span></h3>
+            <p>
+                I am a Front-End Web Developer<br>
+                Currently Pursuing a Bachelor's of Computer Science Engineering And Looking Forward To Work  And Gain Experience.
+                </p>
+            <div class="media">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="linkedin.com/in/shivani-gollapalli-058390206" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+            <a href="SHIVANI GOLLAPALLI.docx" target="_blank" class="btn" download>Download CV</a>
+        </div>
+        <div class="img">
+            <img src="" alt=""> 
+        </div>
+    </section>
+    <!-- About Page -->
+    <div id="about">
+        <h2 class="sub-title1">About <span>Me</span></h2>
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Profile.jpg">
+                </div>
+                <div class="about-col-2">
+                    <p>I am a Front-end Developer, My portfolio is a representation of all that i've learned and accomplished as a Science and Engineering Student.I can provide clean code and pixel perfect design. I also make the website more & more interactive with web animations.A responsive design makes your website acccessible to all users,tegardless of their device</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul><li><span>UI/UX Design</span><br>Designing Interfaces</li></ul>
+                        <ul><li><span>Web Development</span><br>Designing Web Applications</li></ul>
+                        <ul><li><span>Python</span><br>Problem Solcing Challenges</li></ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul><li><span>Internshala</span><br>Completing App Development Course</li></ul>
+                        <ul><li><span>Coursera</span><br>Certification in HTML & CSS</li></ul>
+                        <ul><li><span>Linked In</span><br>Git & GitHub Basics</li></ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul><li><span>B.Tech </span><br>Integrated Course From RGUKT</li></ul>
+                        <ul><li><span>High Schooling</span><br>2013 - 2018</li></ul>
+                        <ul><li><span>Board Schooling</span><br>2008-2013</li></ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Skills Page -->
+    <div id="service">
+            <div class="containerr">
+                <h2 class="sub-title2">Our <span>Services</span></h2>
+                <div class="roww">
+                    <div class="services">
+                        <i class="fa-solid fa-laptop-code"></i>
+                        <h2>Web Design</h2>
+                        <p class="para">Desiging the plan , create and code internet sites and web pages, many of which combine text with sounds, pictures, graphics and video clips.</p>
+                    </div>
+                    <div class="services">
+                        <i class="fa-solid fa-chart-line"></i>
+                        <h2>Marketing</h2>
+                        <p>Marketing analytics can be Done  By applying technology and analytical processes to marketing-related data, businesses and refine their marketing.</p>
+                    </div>
+                    <div class="services">
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Python Programming</h2>
+                        <p class="para">Programming include writing and testing code, debugging programs and integrating applications with third-party web services. </p>
+                    </div>
+                    <div class="services">
+                        <i class="fa-solid fa-chart-line"></i>
+                        <h2>Data Analysis</h2>
+                        <p class="para">Developing and implementing data analyses, data collection systems and other strategies that optimize statistical efficiency and quality.</p>
+                    </div>
+                </div>
+            </div>
+    </div>
+    <!-- Work Page -->
+    <div id="work">
+            <h2 class="sub-title3">My <span>Work</span></h2>
+            <div class="work-list">
+                <div class="work">
+                    <img src="Landing Page.png">
+                    <div class="layer">
+                        <h3>Landing Page</h3>
+                        <p>Designing a Landing Page Using HTML & CSS </p>
+                        <span class="info">More<a href="https://github.com/ShivaniGollapalli/TXON_01.git" target="_blank"><i class="fa-sharp fa-solid fa-arrow-right"></i></a></span>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Calculator.jpg">
+                    <div class="layer">
+                        <h3>Calculator</h3>
+                        <p>Designing a Calculator Using HTML & CSS & Java Script</p>
+                        <span class="info">More<a href="https://github.com/ShivaniGollapalli/TXON_02.git" target="_blank"><i class="fa-sharp fa-solid fa-arrow-right"></i></a></span>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Todo.jpg">
+                    <div class="layer">
+                        <h3>To-Do List</h3>
+                        <p>Designing a To-Do List Using HTML & CSS & Java Script</p>
+                        <span class="info">More<a href="https://github.com/ShivaniGollapalli/TXON_03.git" target="_blank"><i class="fa-sharp fa-solid fa-arrow-right"></i></a></span>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="AppDevelopment.jpeg">
+                    <div class="layer">
+                        <h3>App Development</h3>
+                        <p>Developing an App using Kotlin And XHTML</p>
+                        <span class="info">More<a href="#"><i class="fa-sharp fa-solid fa-arrow-right"></i></a></span>
+                    </div>
+                </div>
+            </div>
+    </div>
+    <!-- Contact Page -->
+    <div id="contact">
+        <div class="container">
+            <h2 class="sub-title4">Contact <span>Me</span></h2>
+            <div class="rowww">
+                <div class="content-left">
+                    <p><i class="fa-brands fa-telegram"></i>Contact@example.com</p>
+                    <p><i class="fa-sharp fa-solid fa-phone"></i>9123456789</p>
+                    <div class="icons">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="content-right">
+                    <form nam="submit-to-google-sheet">
+                        <p class="side"> Feel Free To Ask</p>
+                        <input type="text" name="Name" placeholder="Enter Your Name here" required>
+                        <input type="email" name="Email" id="" placeholder="E-mail" required>
+                        <textarea name="Message" id="" cols="30" rows="5" placeholder="Your Message" required></textarea>
+                        <button class="form-btn" type="submit">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">Copyright &copy; All Rights Are Reserved</div>
+    </div>
+    <!-- Related Java Script File -->
+    <script src="index.js"></script>
+</body>
+</html>
